@@ -396,6 +396,10 @@
 		}
 	}
 
+	#thankyou_message {
+		display: none;
+	}
+
 	.select-wrapper {
 		@include icon;
 		display: block;
@@ -1310,6 +1314,16 @@
 			margin: 0;
 			position: absolute;
 			top: 0;
+			div {
+				img.logo-img {
+			    padding: 10px 10px 0px 0px;
+					float: left;
+				}
+				h2.logo-text {
+					float: left;
+					padding-bottom: 16px;
+				}
+			}
 		}
 
 		nav {
@@ -1374,7 +1388,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: _palette(accent2);
-		background-image: url('../../images/banner.jpg');
+		background-image: url('../../images/newborn-baby-feet-basket-161709.jpeg');
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
@@ -1436,11 +1450,17 @@
 				width: 18em;
 
 				img {
-					border-radius: 100%;
 					display: block;
 					width: 100%;
 				}
 			}
+
+      .img-main-banner {
+        padding-top: 3em;
+        background-color: white;
+        border-radius: 100%;
+      }
+
 		}
 	}
 
@@ -1776,8 +1796,12 @@
 						height: 9em;
 						width: 9em;
 					}
-				}
+
+          .img-main-banner {
+            padding-top: 1.5em;
+    			}
 			}
+    }
 
 		/* Off-Canvas Navigation */
 
@@ -1808,10 +1832,19 @@
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
-
+					div {
+						margin-top: 0.2em;
+					}
 					a {
 						color: inherit;
 						border: 0;
+					}
+					img.logo-img {
+						float: left;
+    				padding: 0.11em 0px 0px 4em;
+					}
+					h2.logo-text {
+
 					}
 				}
 
