@@ -307,6 +307,13 @@
     }
   }
 
+  span.icon-circle {
+    border-radius: 100%;
+    max-width: 13em;
+    text-align: center;
+    display:inline-block !important;
+  }
+
   header {
     p {
       color: _palette(fg-bold);
@@ -410,7 +417,7 @@
       -webkit-transform-origin: bottom left;
       -moz-transform-origin: bottom left;
       -webkit-transform-origin: bottom left;
-      margin-top: .5em;
+      margin: 2.5em 0 0 -10.5em;
     }
   }
 
