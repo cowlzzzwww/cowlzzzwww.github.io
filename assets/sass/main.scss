@@ -1360,8 +1360,8 @@
           margin-left: 1em;
 
           iframe.fb-like-nav {
-            padding-top: 14px;
-            transform: scale(1.8);
+            padding-top: 15px;
+            transform: scale(1.6);
           }
 
           a, span {
@@ -1470,14 +1470,16 @@
       .image {
         border-radius: 100%;
         display: inline-block;
-        height: 18em;
+        height: 21em;
         margin-left: 3em;
+        padding: 0em 0em 0em 0em;
         vertical-align: middle;
-        width: 18em;
+        width: 21em;
 
         img {
           display: block;
           width: 100%;
+          margin: 1em 0em 0em .3em;
         }
       }
 
@@ -1821,6 +1823,10 @@
           .image {
             height: 9em;
             width: 9em;
+
+            img {
+              margin: 0em 0em 0em .3em;
+            }
           }
 
           .img-main-banner {
