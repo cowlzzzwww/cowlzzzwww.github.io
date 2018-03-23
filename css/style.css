@@ -2903,6 +2903,14 @@ Video
     display: none;
 }
 
+.width100 {
+    width:100%;
+}
+
+.text-center .social-icons {
+    float: none;
+}
+
 iframe.fb-like-know-more {
     transform: scale(2);
     -ms-transform: scale(2);
