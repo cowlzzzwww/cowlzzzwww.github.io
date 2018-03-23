@@ -1,0 +1,73 @@
+a, a:hover,
+.header .navbar-default .navbar-nav > .active > a, .header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > li > a:focus,
+.header .navbar .nav > li > .search:hover,
+.header .navbar-default .navbar-nav > li:hover > a,
+.services i,
+.category ul li a:hover, .archive ul li a:hover,
+.main-border,
+.price-box .price-heading i,
+.err404 i,
+.btn-custom.btn-large.border-btn.call-to-action-button:hover,
+.tab-link
+
+{
+    color: #a0ce4e;
+}
+.social-icons > a:hover, .social-icons > a:hover i,
+.search-click,
+.heading-title.heading-arrow-top, .heading-title.heading-arrow-bottom,
+.section-title-block .section-title::before,
+.section-title-block .section-title::after,
+.hover-zoom a,
+.call-to-action-style2, .call-to-action-style3,
+.btn-custom.btn-large.border-btn.call-to-action-button:hover,
+.tags a:hover,
+.image-block-content .feature-icon,
+.progress-bar,
+.btn.btn-primary:hover,
+.price-box-white .price-box-price, .price-box-white .price-footer,
+.price-box-featured .price-box-popular,
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover,
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover,
+.sidebar-search-style .icon,
+.icon_lists .fa-hover a:hover,
+.btn-custom,
+.btn-custom.border-btn:hover,
+.panel-title > a::before, .panel-title > a.collapsed::before,
+.nav.nav-pills > li > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+.blog-post-comment .btn.btn-primary,
+.post_reply_comments a,
+.switcher h2 a
+{
+    background-color: #a0ce4e;
+}
+.main-border {
+    border-color: #a0ce4e !important;
+}
+
+.post_reply_comments a:before {
+    border-color: #a0ce4e  transparent transparent;
+}
+.panel-title > a:after{
+    border-left: 15px solid #a0ce4e;
+}
+.header .dropdown-menu { 
+		border-top: solid 2px #a0ce4e; 
+		border-bottom: solid 2px #a0ce4e; 
+	}
+        
+.heading-title.heading-arrow-bottom::after {
+    border-top: 40px solid #a0ce4e;
+}
+ul.portfolio-filter a:hover, ul.portfolio-filter a.current {
+    border: 1px solid #a0ce4e;
+}    
+
+.btn-custom.border-btn {
+    border: 1px solid #a0ce4e;
+    color: #a0ce4e ;
+}
+.panel-default > .panel-heading:hover:after{
+    border-top:15px solid #cacaca;
+    border-left: 15px solid #a0ce4e;
+}
