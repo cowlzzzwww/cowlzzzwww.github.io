@@ -127,12 +127,13 @@ jQuery.extend(true,_R, {
 				} catch(e) {}
 			break;
 			case "html5":
-				var tag = _nc.data('audio')=="html5" ? "audio" : "video",
-					jvideo = _nc.find(tag),
-					video = jvideo[0];
+			muted=true;
+				// var tag = _nc.data('audio')=="html5" ? "audio" : "video",
+				// 	jvideo = _nc.find(tag),
+				// 	video = jvideo[0];
 
-				if (video.muted)
-					muted = true;							
+				// if (video.muted)
+				// 	muted = true;							
 			break;
 		}	
 		return muted;	
@@ -1077,10 +1078,10 @@ var htmlvideoevents = function(_nc,opt,startnow) {
 		var vol = _nc.data('volume');
 		vol = vol!=undefined && vol!="mute" ?parseFloat(vol)/100 : vol;
 		
-		if (opt.globalmute===true) 
+		// if (opt.globalmute===true) 
 			video.muted = true;
-		else
-			video.muted = false;
+		// else
+		// 	video.muted = false;
 
 		if (vol>1) vol = vol/100;
 		if (vol=="mute")
